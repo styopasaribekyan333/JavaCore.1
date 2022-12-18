@@ -6,15 +6,23 @@ public class HomeWork1 {
         for (int i = 6; i > 0; i--) {
             System.out.println(' ');
             for (int j = 0; j < (i); j++) {
-                System.out.print('*');
+                System.out.print('*' + " ");
             }
         }
         for (int i = -6; i < 0; i++) {
             System.out.println(' ');
             for (int j = -6; j <= i; j++) {
-                System.out.print('*');
+                System.out.print('*' + " ");
 
             }
+        }
+        for (int i = 0; i < 6; i++) {
+            System.out.println(' ');
+            for (int j = 0; j < i; j++) {
+                System.out.print('*'+" ");
+
+            }
+
         }
 
     }
