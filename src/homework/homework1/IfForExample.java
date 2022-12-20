@@ -33,12 +33,16 @@ public class IfForExample {
         System.out.println(c);
 
 
-        a = 15;
+        a = 20;
         b = 20;
         boolean q;
         q = (a == b);
-        System.out.println(q);
-        //երևի կիսատ է!
+        if (q == true) {
+            System.out.println("a is equal b");
+        }
+        if (q == false) {
+            System.out.println("a is not equal b");
+        }
 
 
     }
