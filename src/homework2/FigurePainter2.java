@@ -1,4 +1,4 @@
-package homework.homework1.homework2;
+package homework2;
 
 public class FigurePainter2 {
     public static void main(String[] args) {
