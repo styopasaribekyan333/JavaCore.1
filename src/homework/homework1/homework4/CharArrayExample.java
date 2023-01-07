@@ -1,4 +1,4 @@
-package homework4;
+package homework.homework1.homework4;
 
 public class CharArrayExample {
     public static void main(String[] args) {
